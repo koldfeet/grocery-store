@@ -5,11 +5,17 @@ body {
 
 /*Home Page Start*/
 /*header logo navbar*/
+
+.header-bg-color {
+    background-color: #b2b6b9;
+}
+
 .header-logo {
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Gugi', cursive;
+    margin: .3em;
 }
 
 .nav-bar {
@@ -20,10 +26,11 @@ a {
     text-decoration: none;
 }
 
-/*container*/
+/*container background color, uncomment (comment out line 9-11) if client want to go with this background instead. 
 .container {
     background-color: #9a9b88;
 }
+*/
 
 /*cards*/
 .card-group {
